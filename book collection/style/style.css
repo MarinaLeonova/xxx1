@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Kurale&display=swap');
+
+/* GLOBAL */
+
+body {
+    font-family: Kurale;
+    font-weight: 400;
+}
+
+section {
+    background: linear-gradient(181.64deg, rgba(139, 74, 35, 0.63) 2.206%, rgba(236, 200, 146, 0.88) 67.817%);
+    /* height: 100vh; */
+}
+
+.container {
+    max-width: calc(1440px + 100px);
+    margin: 0 auto;
+    padding: 0 50px;   
+}
+
+
+
+
+
+.start {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.start_sides {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 25px 20px 20px;
+    background: rgba(139, 74, 35, 0.30);
+}
+
+.start_img {
+    width: 150px;
+    height: 200px;
+    border-radius: 17px;
+    box-shadow: 10px 3px 5px 0px rgba(0, 0, 0, 0.5)
+}
+
+.start_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start_logo {
+    margin-top: 45px;
+    width: 640px;
+}
+
+.start_button {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 90px;
+    padding: 20px 100px;
+    border: none;    
+    border-radius: 75px;
+    box-shadow: 10px 15px 7.5px 1px rgba(0, 0, 0, 0.25);
+    background: rgba(228, 220, 207, 0.87);
+}
+
+.start_company {
+    padding-top: 145px;
+    font-size: 25px;
+    color: rgba(18, 18, 18, 0.64);
+}
+
+.catalog1,
+.catalog2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.left_list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 15px 100px;
+    border-radius: 25px;
+    background-color: rgba(139, 74, 35, 0.30);
+}
+
+.left_icon {
+    width: 25px;
+}
+
+.left_link,
+.left_h4{
+    font-size: 25px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.left_h4 {
+    margin-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.left_button {
+    background: none;
+    border: none;
+    font-size: 19px;
+}
+
+.catalog_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    gap: 15px;
+}
+
+.lupa {
+    width: 50px;
+}
+
+.search_input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 13px;
+    font-family: inherit;
+    background-color: rgba(139, 74, 35, 0.30);
+}
+
+.search_input::placeholder {
+    color: black;
+    opacity: 0.44;
+    font-size: 20px;
+}
+
+.catalog1_name {
+    width: 400px;
+    align-self: center;
+}
+
+.free_books {
+    margin-bottom: 25px;
+    border-radius: 25px;
+    background-color: rgba(139, 74, 35, 0.30); 
+    background-image: url('/img/ellipse_бесплатные_книги.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;       
+}
+
+.free_h3 {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.free_list {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.free_img,
+.buy_img,
+.catalog2_img {
+    width: 190px;
+}
+
+.buy {
+    border-radius: 25px;
+    background-color: rgba(139, 74, 35, 0.30);
+    background-image: url('/img/Ellipse_белыый1.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+/* .buy_name {
+    width: 300px;
+} */
+
+.buy_h3 {
+    /* padding: 23px 40px; */
+    padding-top: 23px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+.buy_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+}
+
+.buy_button {
+    background: none;
+    border: none;
+}
+
+.buy_btn_link {
+    font-size: 25px;
+    border: none;
+    padding: 15px 25px;
+    background-color: rgba(243, 233, 217, 0.87);
+    border-radius: 75px;
+    box-shadow: 7px 9px 3px 1px rgba(0, 0, 0, 0.35);
+}
+
+.big_catalog2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(139, 74, 35, 0.30); 
+}
+
+.catalog2_li_descr {
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+.catalog2_author,
+.catalog2_name {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
